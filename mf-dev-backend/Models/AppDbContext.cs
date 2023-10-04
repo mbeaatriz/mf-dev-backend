@@ -8,5 +8,8 @@ namespace mf_dev_backend.Models
 
         public DbSet<Veiculo> Veiculos { get; set; }
 
+        public DbSet<Consumo> Consumos { get; set; }
+
+
     }
 }
